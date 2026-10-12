@@ -74,7 +74,7 @@ Python · pandas · NumPy · scikit-learn · Streamlit · Plotly · Matplotlib /
 ## ▶️ How to run
 
 ```bash
-git clone https://github.com/<your-username>/heart-disease-prediction.git
+git clone https://github.com/MohitSinghNegi007/heart-disease-prediction.git
 cd heart-disease-prediction
 pip install -r requirements.txt
 
@@ -118,7 +118,7 @@ via the Kaggle "Heart Disease Dataset" copy. 165 patients without disease, 138 w
 
 **Mohit Singh Negi**
 
-<!-- Add your LinkedIn / GitHub links here -->
+[GitHub](https://github.com/MohitSinghNegi007)
 
 ## 📄 License
 
