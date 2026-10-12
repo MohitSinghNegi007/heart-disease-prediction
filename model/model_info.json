@@ -1,0 +1,22 @@
+{
+  "model_name": "Logistic Regression",
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "test_accuracy": 0.852,
+  "test_roc_auc": 0.927,
+  "cv_roc_auc": 0.907,
+  "n_samples": 303,
+  "label_note": "Trained on disease = 1 - target (target is inverted in source CSV)"
+}
