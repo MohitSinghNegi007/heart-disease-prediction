@@ -48,7 +48,7 @@ MODEL_PATH = MODEL_DIR / "heart_disease_model.pkl"
 
 
 def load_data(path=DATA_PATH):
-    df = pd.read_csv(path, encoding="utf-8-sig")
+    df = pd.read_csv(path, encoding="utf-8-sig").drop_duplicates()  # 1 duplicated patient
     df["ca"] = df["ca"].replace(4, np.nan)      # 4 = missing
     df["thal"] = df["thal"].replace(0, np.nan)  # 0 = missing
     df["disease"] = 1 - df["target"]            # fix inverted label

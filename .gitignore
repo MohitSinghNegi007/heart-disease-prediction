@@ -9,3 +9,6 @@ venv/
 Thumbs.db
 ~$*
 readme.docx
+
+# Large dataset, downloaded by train_lifestyle.py
+data/cdc_brfss_2015.csv

@@ -15,8 +15,8 @@
     "thal"
   ],
   "test_accuracy": 0.852,
-  "test_roc_auc": 0.927,
-  "cv_roc_auc": 0.907,
-  "n_samples": 303,
+  "test_roc_auc": 0.926,
+  "cv_roc_auc": 0.909,
+  "n_samples": 302,
   "label_note": "Trained on disease = 1 - target (target is inverted in source CSV)"
 }

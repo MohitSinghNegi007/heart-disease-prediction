@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "model_name": "Gradient Boosting (monotonic)",
+    "features": [
+      "Age",
+      "Sex",
+      "BMI",
+      "HighBP",
+      "HighChol",
+      "Diabetes_binary",
+      "Smoker",
+      "Stroke",
+      "PhysActivity",
+      "Fruits",
+      "Veggies",
+      "GenHlth",
+      "MentHlth",
+      "PhysHlth",
+      "DiffWalk"
+    ],
+    "n_samples": 253680,
+    "prevalence": 0.0942,
+    "test_roc_auc": 0.8479,
+    "test_pr_auc": 0.3656,
+    "test_brier": 0.0706,
+    "baseline_lr_roc_auc": 0.8456
+  },
+  "calibration": {
+    "pred": [
+      0.0021,
+      0.0052,
+      0.0102,
+      0.0185,
+      0.0322,
+      0.0521,
+      0.081,
+      0.1248,
+      0.2002,
+      0.4102
+    ],
+    "obs": [
+      0.0028,
+      0.0049,
+      0.0097,
+      0.0173,
+      0.0286,
+      0.0439,
+      0.0865,
+      0.1356,
+      0.2208,
+      0.3918
+    ]
+  },
+  "importance": {
+    "Age": 0.0743,
+    "GenHlth": 0.044,
+    "Sex": 0.0173,
+    "HighChol": 0.0124,
+    "HighBP": 0.0106,
+    "Stroke": 0.0084,
+    "Smoker": 0.0043,
+    "DiffWalk": 0.0036,
+    "Diabetes_binary": 0.0023,
+    "PhysHlth": 0.0007,
+    "MentHlth": 0.0002,
+    "PhysActivity": -0.0,
+    "Fruits": 0.0,
+    "Veggies": 0.0,
+    "BMI": -0.0001
+  },
+  "reference": {
+    "Age": 8.0,
+    "Sex": 0.0,
+    "BMI": 27.0,
+    "HighBP": 0.0,
+    "HighChol": 0.0,
+    "Diabetes_binary": 0.0,
+    "Smoker": 0.0,
+    "Stroke": 0.0,
+    "PhysActivity": 1.0,
+    "Fruits": 1.0,
+    "Veggies": 1.0,
+    "GenHlth": 2.0,
+    "MentHlth": 0.0,
+    "PhysHlth": 0.0,
+    "DiffWalk": 0.0
+  },
+  "rates": {
+    "Age": {
+      "1": 0.0051,
+      "2": 0.0071,
+      "3": 0.0113,
+      "4": 0.014,
+      "5": 0.0217,
+      "6": 0.0359,
+      "7": 0.0542,
+      "8": 0.0731,
+      "9": 0.101,
+      "10": 0.1302,
+      "11": 0.1677,
+      "12": 0.1936,
+      "13": 0.2395
+    },
+    "GenHlth": {
+      "1": 0.0224,
+      "2": 0.0463,
+      "3": 0.1046,
+      "4": 0.2131,
+      "5": 0.34
+    },
+    "BMI": {
+      "Under 18.5": 0.1059,
+      "18.5–25": 0.0721,
+      "25–30": 0.0961,
+      "30–35": 0.1138,
+      "35+": 0.1228
+    },
+    "Smoker": {
+      "0": 0.0644,
+      "1": 0.1317
+    },
+    "HighBP": {
+      "0": 0.0412,
+      "1": 0.1647
+    },
+    "HighChol": {
+      "0": 0.0489,
+      "1": 0.1557
+    },
+    "Diabetes_binary": {
+      "0": 0.0734,
+      "1": 0.2229
+    },
+    "PhysActivity": {
+      "0": 0.1391,
+      "1": 0.0797
+    },
+    "Stroke": {
+      "0": 0.082,
+      "1": 0.3825
+    },
+    "DiffWalk": {
+      "0": 0.0662,
+      "1": 0.2323
+    },
+    "Sex": {
+      "0": 0.0719,
+      "1": 0.1225
+    },
+    "Fruits": {
+      "0": 0.1018,
+      "1": 0.0898
+    },
+    "Veggies": {
+      "0": 0.1179,
+      "1": 0.0887
+    }
+  }
+}
